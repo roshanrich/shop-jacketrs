@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 241, 241);
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation */
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+#nav h4 {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#nav i {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Main Content */
+#center {
+    width: 100%;
+    padding: 40px 80px;
+}
+
+#center h1 {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+#center-in {
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 50%;
+}
+
+#right {
+    width: 20%;
+}
+
+.elem {
+    margin: 5px;
+    padding: 20px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.elem i {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.elem a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.elem:hover i {
+    opacity: 1;
+}
+
+/* Bottom Image */
+#bottom {
+    height: 35%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1187218264/photo/afro-style-black-girl-with-long-black-and-blondes-braids-talking-on-the-telephone-with.webp?a=1&b=1&s=612x612&w=0&k=20&c=dBkKKwL81jIN1u9ktQyHECxolNI4NZzEz9RcDLFKc8M=); /* Ensure the image path is correct */
+    background-size: cover;
+    background-position: center;
+}
